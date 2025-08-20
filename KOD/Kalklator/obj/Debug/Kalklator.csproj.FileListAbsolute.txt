@@ -1,0 +1,9 @@
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\obj\Debug\Kalklator.csproj.AssemblyReference.cache
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\obj\Debug\Kalklator.Properties.Resources.resources
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\obj\Debug\Kalklator.csproj.GenerateResource.cache
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\obj\Debug\Kalklator.csproj.CoreCompileInputs.cache
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\bin\Debug\Kalklator.exe.config
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\bin\Debug\Kalklator.exe
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\bin\Debug\Kalklator.pdb
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\obj\Debug\Kalklator.exe
+C:\Users\jonaszgrzybek\source\repos\Kalklator\Kalklator\obj\Debug\Kalklator.pdb
