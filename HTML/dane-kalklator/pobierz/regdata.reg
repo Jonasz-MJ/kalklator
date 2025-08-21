@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.kalk]
+@="Kalklator.File"
+
+[HKEY_CURRENT_USER\Software\Classes\.kalk\OpenWithProgids]
+"Kalklator.File"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Classes\Kalklator.File]
+@="Plik Kalklatora"
+
+[HKEY_CURRENT_USER\Software\Classes\Kalklator.File\DefaultIcon]
+@="C:\\Program Files\\Kalklator\\Kalklator.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\Kalklator.File\shell\open\command]
+@="\"C:\\Program Files\\Kalklator\\Kalklator.exe\" \"%1\""

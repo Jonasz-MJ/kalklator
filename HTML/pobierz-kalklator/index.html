@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kalklator™ - Pobierz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background-color: #fff;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      margin-top: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: calc(100vh - 120px);
+      text-align: center;
+      padding: 0 1em;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      user-select: none;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 2em;
+      color: #555;
+      user-select: none;
+      line-height: 1.4;
+    }
+
+    .button {
+      padding: 1em 2em;
+      font-size: 1em;
+      border: none;
+      background-color: #000;
+      color: #fff;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+      user-select: none;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background-color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em 0;
+      color: #888;
+      user-select: none;
+      font-size: 0.9em;
+      margin-top: auto;
+    }
+
+    /* Link "Inne sposoby pobierania" pod przyciskiem */
+    .alt-download-link {
+      font-size: 1em;
+      color: #000;
+      cursor: pointer;
+      user-select: none;
+      text-decoration: none;
+    }
+    .alt-download-link:hover {
+      color: #444;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.2em;
+      }
+      p {
+        font-size: 1em;
+        margin-bottom: 1.5em;
+      }
+      .button {
+        font-size: 0.9em;
+        padding: 0.75em 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kalklator™</h1>
+    <p>Kalklator™ to prosty, zabawny kalkulator, który zawsze podaje błędny wynik — bo dlaczego nie?<br />Pobierz aplikację i przekonaj się sam!</p>
+    <a class="button" href="https://dane-kalklator.netlify.app/pobierz/Kalklator Setup.exe" download>Pobierz Kalklator™</a>
+    <br>
+    <a href="download-methods.html" class="alt-download-link" target="_blank" rel="noopener noreferrer">
+        Inne sposoby pobierania
+    </a>
+  </main>
+  <footer>
+    © 2025 Programix – Producent Programów Wątpliwej Jakości
+  </footer>
+</body>
+</html>

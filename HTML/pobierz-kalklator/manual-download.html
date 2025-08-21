@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Poradnik pobrania Kalklator™</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      height: 120px;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    main {
+      flex: 1;
+      margin-top: 40px;
+      max-width: 700px;
+      padding: 0 20px 40px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    ol {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ol li {
+      margin-bottom: 1.8em;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: #444;
+      text-decoration: underline;
+    }
+
+    code {
+      background-color: #eee;
+      padding: 0.2em 0.4em;
+      border-radius: 6px;
+      font-family: monospace;
+    }
+
+    .note {
+      margin-top: 2.5em;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+    }
+
+    .button-container {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .button {
+      background-color: #000;
+      color: #fff;
+      border-radius: 30px;
+      padding: 1em 2em;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 600;
+      user-select: none;
+    }
+
+    .button:hover {
+      background-color: #444;
+      text-decoration: none;
+    }
+
+    footer {
+      height: 80px;
+      background-color: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>Kalklator™ - Poradnik</header>
+  <main>
+    <h1>Jak pobrać i zainstalować Kalklator™ ręcznie</h1>
+
+    <div class="button-container">
+      <a href="https://dane-kalklator.netlify.app/pobierz/install.cmd" class="button" target="_blank" rel="noopener noreferrer" download>
+        Pobierz instalator
+      </a>
+    </div>
+
+    <ol>
+      <li>
+        <strong>Pobierz program</strong><br />
+        Kliknij powyższy przycisk lub otwórz adres:<br />
+        <a href="https://dane-kalklator.netlify.app/pobierz/install.cmd" target="_blank" rel="noopener noreferrer">
+          https://dane-kalklator.netlify.app/pobierz/install.cmd
+        </a><br />
+        Plik <code>install.cmd</code> zawiera instalator Kalklator™.
+      </li>
+      <li>
+        <strong>Zapisz plik w wygodnym miejscu</strong><br />
+        Na przykład na Pulpicie lub w folderze <code>Pobrane</code>.
+      </li>
+      <li>
+        <strong>Uruchom instalator Kalklator™</strong><br />
+        Kliknij dwukrotnie pobrany plik <code>install.cmd</code>.<br />
+        Jeśli pojawi się okno kontroli konta użytkownika, zatwierdź uruchomienie.
+      </li>
+      <li>
+        <strong>Wybierz folder instalacji</strong><br />
+        Możesz zaakceptować domyślny folder <code>C:\Program Files\Kalklator</code> lub wskazać własny.
+      </li>
+      <li>
+        <strong>Poczekaj na zakończenie instalacji</strong><br />
+        Instalator pobierze pliki i przygotuje program do użycia.
+      </li>
+      <li>
+        <strong>Powiązanie plików <code>.kalk</code></strong><br />
+        Po instalacji pliki z rozszerzeniem <code>.kalk</code> będą automatycznie otwierane przez Kalklator™.
+      </li>
+      <li>
+        <strong>Uruchom Kalkulator™</strong><br />
+        Znajdziesz go w menu Start, na Pulpicie lub bezpośrednio w folderze instalacyjnym.<br />
+        Możesz otwierać pliki <code>.kalk</code> z poziomu aplikacji.
+      </li>
+    </ol>
+
+    <p class="note">
+      Instalacja wymaga uprawnień administratora.<br />
+      Aby odinstalować Kalklator™, uruchom instalator ponownie i wybierz opcję „Odinstaluj”.
+    </p>
+  </main>
+  <footer>© 2025 Producent Programów Wątpliwej Jakości Programix</footer>
+</body>
+</html>
