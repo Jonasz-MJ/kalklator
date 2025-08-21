@@ -9,6 +9,7 @@ Oficjalna strona: [pobierz-kalklator.netlify.app](https://pobierz-kalklator.netl
 - Kalklator.exe
 - install.cmd
 - KOD
+- HTML
 - LICENSE
 - README.md
 
@@ -82,5 +83,6 @@ cd kalklator
 ## Open-Source i współpraca
 
 KALKLATOR™ jest projektem **open-source**, co oznacza, że każdy może korzystać z kodu źródłowego zgodnie z zasadami licencji MIT.  
+
 
 > Dzięki open-source każdy może przyczynić się do rozwoju KALKLATORA™ i wspólnie tworzyć jeszcze bardziej szalony kalkulator!  
